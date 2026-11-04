@@ -3,21 +3,30 @@
 
 ## 🎯 Objetivo
 
-Desenvolver um jogo da forca em Python para praticar manipulação de strings, estruturas de repeticao, condicionais e entrada de dados do usuario.
+Desenvolver um jogo da forca em Python para praticar manipulação de strings, estruturas de repetição, condicionais e entrada de dados do usuário.
 
 ## 📝 Tarefas
 
-### 🛠️ Implementacao do Jogo
+### 🛠️ Preparação da Palavra e Estado do Jogo
 
 #### Descrição
-Crie o jogo da forca em que o jogador tenta descobrir uma palavra secreta letra por letra antes de acabar o numero de tentativas.
+Implemente a base do jogo: escolha da palavra secreta, estrutura de progresso e controle de tentativas.
 
 #### Requisitos
 O programa concluído deve:
 
 - Selecionar uma palavra aleatoriamente de uma lista predefinida.
-- Aceitar palpites de letras informados pelo usuario.
 - Exibir o progresso atual da palavra no formato `_ _ _`.
 - Rastrear e mostrar a quantidade de tentativas incorretas restantes.
+
+### 🛠️ Interação com o Jogador e Encerramento
+
+#### Descrição
+Complete o jogo com entrada de palpites, atualização do estado e mensagens finais de resultado.
+
+#### Requisitos
+O programa concluído deve:
+
+- Aceitar palpites de letras informados pelo usuário.
 - Encerrar o jogo quando a palavra for descoberta ou quando as tentativas acabarem.
-- Exibir uma mensagem final de vitoria ou derrota.
+- Exibir uma mensagem final de vitória ou derrota.
