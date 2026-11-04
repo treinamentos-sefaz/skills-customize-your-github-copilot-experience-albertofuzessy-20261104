@@ -58,6 +58,13 @@
           "type": "csv"
         }
       ]
+    },
+    {
+      "id": "fastapi-rest-api",
+      "title": "Building REST APIs with FastAPI",
+      "description": "Create a REST API with FastAPI, including CRUD endpoints, validation, and HTTP status codes.",
+      "path": "assignments/fastapi-rest-api",
+      "dueDate": "2026-11-11"
     }
   ]
 }
