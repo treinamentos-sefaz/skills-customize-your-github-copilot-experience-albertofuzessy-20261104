@@ -1,41 +1,50 @@
 
-# 📘 Assignment: Jogo da Forca
+# 📘 Tarefa: Jogos em Python
 
-## 🎯 Objective
+## 🎯 Objetivo
 
-Desenvolver um jogo da forca em Python para praticar manipulação de strings, estruturas de repetição, condicionais e entrada de dados do usuário.
+Construa e implemente jogos clássicos usando strings, loops, condicionais, seleção aleatória e entrada de dados do usuário em Python.
 
-## 📝 Tasks
+## 📝 Tarefas
 
-### 🛠️ Preparação da Palavra e Estado do Jogo
+### 🛠️ Jogo da Forca
 
 #### Descrição
-Implemente a base do jogo: escolha da palavra secreta, estrutura de progresso e controle de tentativas.
+Crie um jogo da Forca onde os jogadores adivinham letras para revelar uma palavra oculta antes de esgotar as tentativas.
 
 #### Requisitos
 O programa concluído deve:
 
-- Selecionar uma palavra aleatoriamente de uma lista predefinida.
-- Exibir o progresso atual da palavra no formato `_ _ _`.
-- Rastrear e mostrar a quantidade de tentativas incorretas restantes.
+- Selecionar palavras aleatoriamente de uma lista predefinida
+- Aceitar palpites de letras e mostrar o progresso atual (formato: `_ _ _`)
+- Rastrear tentativas incorretas restantes
+- Encerrar quando a palavra for adivinhada ou as tentativas esgotarem
+- Exibir mensagens de vitória/derrota
 
-### 🛠️ Interação com o Jogador e Encerramento
+### 🛠️ Jogo da Adivinhação
 
 #### Descrição
-Complete o jogo com entrada de palpites, atualização do estado e mensagens finais de resultado.
+Crie um jogo de adivinhação onde o computador escolhe um número aleatório e o jogador tenta descobri-lo recebendo dicas.
 
 #### Requisitos
 O programa concluído deve:
 
-- Aceitar palpites de letras informados pelo usuário.
-- Encerrar o jogo quando a palavra for descoberta ou quando as tentativas acabarem.
-- Exibir uma mensagem final de vitória ou derrota.
-- Exemplo de interação esperado:
-	```text
-	Palavra: _ _ _ _
-	Tentativas restantes: 6
-	Digite uma letra: a
-	Boa! Palavra: _ a _ a
-	...
-	Parabéns! Você venceu.
-	```
+- Gerar um número aleatório entre 1 e 100
+- Solicitar palpites do usuário
+- Fornecer dicas ("muito alto", "muito baixo", "correto!")
+- Contar e exibir o número de tentativas ao final
+- Permitir ao usuário jogar novamente sem reiniciar o programa
+
+### 🛠️ Pedra, Papel e Tesoura
+
+#### Descrição
+Implemente o clássico jogo Pedra, Papel e Tesoura contra o computador com placar de múltiplas rodadas.
+
+#### Requisitos
+O programa concluído deve:
+
+- Permitir que o usuário escolha entre Pedra, Papel ou Tesoura
+- Gerar uma escolha aleatória do computador
+- Determinar o vencedor de cada rodada
+- Manter um placar de vitórias/derrotas/empates
+- Permitir múltiplas rodadas com opção de sair
