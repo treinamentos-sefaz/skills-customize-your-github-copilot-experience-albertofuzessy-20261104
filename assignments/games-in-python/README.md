@@ -1,4 +1,3 @@
-
 # 📘 Atividade: Jogo da Forca
 
 ## 🎯 Objetivo
