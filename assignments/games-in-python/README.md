@@ -30,3 +30,14 @@ O programa concluído deve:
 - Aceitar palpites de letras informados pelo usuário.
 - Encerrar o jogo quando a palavra for descoberta ou quando as tentativas acabarem.
 - Exibir uma mensagem final de vitória ou derrota.
+
+Exemplo de interação:
+
+```text
+Palavra: _ _ _ _
+Tentativas restantes: 6
+Digite uma letra: a
+Boa! Palavra: _ a _ a
+...
+Parabéns! Você venceu.
+```
