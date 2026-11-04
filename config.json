@@ -65,6 +65,13 @@
       "description": "Create a REST API with FastAPI, including CRUD endpoints, validation, and HTTP status codes.",
       "path": "assignments/fastapi-rest-api",
       "dueDate": "2026-11-11"
+    },
+    {
+      "id": "fastapi-sqlite-persistence",
+      "title": "FastAPI and SQLite Persistence",
+      "description": "Add persistent SQLite storage to a FastAPI task API using the Python standard library.",
+      "path": "assignments/fastapi-sqlite-persistence",
+      "dueDate": "2026-11-11"
     }
   ]
 }
